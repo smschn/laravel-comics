@@ -1,7 +1,9 @@
 @extends('layout.app')
 
+@section('page_title', 'Homepage')
+
 @section('comics')
-<main>
+
     <div class="containerWidth">
         @foreach ($comics2 as $comic)
             <div class="card_comics">
@@ -13,5 +15,5 @@
         @endforeach
     </div>
     <div class="button">LOAD MORE</div>
-</main>
+
 @endsection

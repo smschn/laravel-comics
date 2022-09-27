@@ -1,7 +1,7 @@
 @extends('layout.app')
 
+@section('page_title', 'News')
+
 @section('comics')
-<main>
     <h1>PAGINA NEWS</h1>
-</main>
 @endsection
