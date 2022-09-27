@@ -12,9 +12,9 @@
             <li><a href={{route('games')}}>GAMES</a></li>
             <li><a href={{route('collectibles')}}>COLLECTIBLES</a></li>
             <li><a href={{route('videos')}}>VIDEOS</a></li>
-            <li><a href={{route('fans')}}>FANS</a></li>
-            <li><a href={{route('news')}}>NEWS</a></li>
-            <li><a href={{route('shop')}}>SHOP</a></li>
+            <li><a href={{route('fans')}}>FANS</a></li> <!-- come url della pagina uso il nome dato alla sua ROUTE -->
+            <li><a href={{url('/news')}}>NEWS</a></li> <!-- prendo direttamente l'url della pagina -->
+            <li><a href={{url('/shop')}}>SHOP</a></li>
         </ul>
     </nav>
 </header>
