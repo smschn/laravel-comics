@@ -1,0 +1,72 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dcblue: #0282f9;
+}
+
+/*
+$bgFooter1: #303030;
+*/
+
+.containerWidth {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    background-color: var(--dcblue);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+    
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+header li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header li a:hover {
+    color: var(--dcblue);
+    cursor: pointer;
+}
+
+/* jumbotron */
+#jumbotron {
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+.series_box {
+    background-color: var(--dcblue);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 170px;
+    position: relative;
+    bottom: -330px;
+    left: 10%;
+}
