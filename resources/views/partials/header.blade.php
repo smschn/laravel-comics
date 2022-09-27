@@ -4,16 +4,17 @@
     </div>
     <nav>
         <ul>
-            <li><a href=#>CHARACTERS</a></li>
-            <li><a href=#>COMICS</a></li>
-            <li><a href=#>MOVIES</a></li>
-            <li><a href=#>TV</a></li>
-            <li><a href=#>GAMES</a></li>
-            <li><a href=#>COLLECTIBLES</a></li>
-            <li><a href=#>VIDEOS</a></li>
-            <li><a href=#>FANS</a></li>
-            <li><a href=#>NEWS</a></li>
-            <li><a href=#>SHOP</a></li>
+            <li><a href={{url('/')}}>HOMEPAGE</a></li>
+            <li><a href={{route('characters')}}>CHARACTERS</a></li>
+            <li><a href={{route('comics')}}>COMICS</a></li>
+            <li><a href={{route('movies')}}>MOVIES</a></li>
+            <li><a href={{route('tv')}}>TV</a></li>
+            <li><a href={{route('games')}}>GAMES</a></li>
+            <li><a href={{route('collectibles')}}>COLLECTIBLES</a></li>
+            <li><a href={{route('videos')}}>VIDEOS</a></li>
+            <li><a href={{route('fans')}}>FANS</a></li>
+            <li><a href={{route('news')}}>NEWS</a></li>
+            <li><a href={{route('shop')}}>SHOP</a></li>
         </ul>
     </nav>
 </header>
