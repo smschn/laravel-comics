@@ -70,3 +70,90 @@ header li a:hover {
     bottom: -330px;
     left: 10%;
 }
+
+/* footer */
+
+footer {
+    color: white
+}
+
+footer .f_top {
+    background-image: url('../images/footer-bg.jpg');
+}
+
+footer .f_top .ft_container {
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+footer .f_top .ft_container .ft_menu {
+    display: flex;
+    padding: 50px 0px;
+}
+
+footer .f_top .ft_container .ft_menu nav {
+    margin: 0px 10px;
+}
+
+footer .f_top .ft_container .ft_menu nav h4 {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+
+footer .f_top .ft_container .ft_menu nav:first-child ul {
+    color: red;
+    margin-bottom: 20px;
+}
+
+footer .f_top .ft_container .ft_menu li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+footer .f_top .ft_container .ft_menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer .f_top .ft_container .ft_menu a:hover {
+    color: rgb(175, 175, 175);
+}
+
+footer .f_top .ft_container .ft_logobg {
+    position: relative;
+    top: -60px;
+}
+
+footer .f_bottom {
+    background-color: #303030;
+}
+
+footer .f_bottom .fb_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+footer .f_bottom .fb_container button {
+    border: 1px solid var(--dcblue);
+    background-color: #303030;
+    color: #fff;
+    padding: 15px;
+}
+
+footer .f_bottom .fb_container ul {
+    display: flex;
+    align-items: center;
+}
+
+footer .f_bottom .fb_container ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+footer .f_bottom .fb_container ul li:first-child {
+    color: var(--dcblue);
+    font-weight: bold;
+}
