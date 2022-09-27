@@ -1,3 +1,27 @@
+<section id="footer_top">
+    <div class="containerWidth">
+        <div class="card">
+            <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="Digital comics">
+            <div>Digital comics</div>
+        </div>
+        <div class="card">
+            <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="Dc merchandise">
+            <div>Dc merchandis</div>
+        </div>
+        <div class="card">
+            <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="Shop locator">
+            <div>Subscription</div>
+        </div>
+        <div class="card">
+            <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="Subscriptions">
+            <div>Comic shop locator</div>
+        </div>
+        <div class="card">
+            <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="DC power visa">
+            <div>DC power visa</div>
+        </div>
+    </div>
+  </section>
 <footer>
     <div class="f_top">
         <div class="ft_container containerWidth">

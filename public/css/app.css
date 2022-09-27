@@ -71,6 +71,44 @@ header li a:hover {
     left: 10%;
 }
 
+/* footer top */
+
+#footer_top {
+    background-color: var(--dcblue);
+}
+
+#footer_top .containerWidth {
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_top .containerWidth .card {
+    flex-basis: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+#footer_top .containerWidth .card img {
+    max-width: 20%;
+    max-height: 70%;
+    margin-right: 10px;
+}
+
+#footer_top .containerWidth .card:hover {
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer_top .containerWidth .card:hover img {
+    max-width: 25%;
+    max-height: 75%;
+}
+
 /* footer */
 
 footer {
