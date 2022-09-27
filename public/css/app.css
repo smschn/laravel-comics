@@ -71,6 +71,63 @@ header li a:hover {
     left: 10%;
 }
 
+/* main */
+
+main {
+    background-color: #1c1c1c;
+    width: 100%;
+    color: white;
+}
+
+main .containerWidth {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .button {
+    background-color: var(--dcblue);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+main .card_comics {
+    flex-basis: calc(100% / 6);
+    margin: 10px;
+    max-width: 150px;
+}
+
+main .card_comics .img_container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+main .card_comics .img_container img {
+    max-width: 100%;
+}
+
+main .card_comics .img_container img:hover {
+    opacity: 0.5;
+}
+
+main .card_comics h6 {
+    margin-top: 10px;
+    color: grey;
+}
+
+main .card_comics h6:hover {
+    color: rgb(175, 175, 175);
+}
+
 /* footer top */
 
 #footer_top {
