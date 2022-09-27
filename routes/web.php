@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    $comics = config('fumetti'); // tramite config() recupero il file php nella cartella CONFIG
+    return view('homepage', ['comics2' => $comics]);
 });

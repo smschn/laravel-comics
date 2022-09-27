@@ -2,21 +2,15 @@
 
 @section('comics')
 <main>
-    test push
-    prova
-    prova
-    prova
-    prova
-    prova
-    prova
-    prova
     <div class="containerWidth">
-        <div class="card_comics">
-            <div class="img_container">
-                <img v-bind:src="details.thumb" v-bind:alt="details.type">
+        @foreach ($comics2 as $comic)
+            <div class="card_comics">
+                <div class="img_container">
+                    <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                </div>
+                <h6>{{$comic['title']}}</h6>
             </div>
-            <h6>{{-- {{details.series.toUpperCase()}} --}}</h6>
-        </div>
+        @endforeach
     </div>
     <div class="button">LOAD MORE</div>
 </main>
